@@ -34,7 +34,7 @@ apt-get install -y \
     libgstreamer-plugins-base1.0-0 libharfbuzz0b libpango-1.0-0 libpangocairo-1.0-0 \
     libpangoft2-1.0-0 libpixman-1-0 libxrender1 sudo ifupdown zlib1g-dev \
     libcairo2 libevdev2 libinput10 libjpeg-turbo8 libpng16-16 libunwind8 \
-    libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev 
+    libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev resolvconf
 
 apt-get install -y \
     zlib1g-dev libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev python3-pip qt5* \

@@ -54,3 +54,7 @@ rm -rf $BUILD_DIR/var/log/*
 rm -rf $BUILD_DIR/var/tmp/*
 rm -rf $BUILD_DIR/var/cache/apt/archives/*.deb
 rm -rf $BUILD_DIR/tmp/*
+
+# add simple config
+rm -rf $BUILD_DIR/etc/network/interfaces
+cp $SOURCE_DIR/simpleware/interfaces $BUILD_DIR/etc/network/
